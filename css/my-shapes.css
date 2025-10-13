@@ -1,0 +1,43 @@
+/* Gaya untuk judul sub-bagian */
+.main-content h2 {
+    color: #000;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+/* Gaya untuk tabel SHAPE */
+.shapes-table {
+    width: 100%;
+    border-collapse: collapse; /* Menggabungkan batas antar sel */
+    margin-top: 20px;
+}
+
+.shapes-table th, 
+.shapes-table td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.shapes-table th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+    color: #555;
+}
+
+/* Garis pemisah di tengah */
+hr {
+    margin: 40px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.Shapes{
+    text-align: center;
+    row-gap: 5px;
+}
+
+.Shapes h1{
+    font-weight: 750;
+    margin-bottom: 0;
+}
