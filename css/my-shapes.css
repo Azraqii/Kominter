@@ -1,14 +1,14 @@
-/* Gaya untuk judul sub-bagian */
+
 .main-content h2 {
     color: #000;
     font-size: 1.5rem;
     margin-top: 3rem;
 }
 
-/* Gaya untuk tabel SHAPE */
+
 .shapes-table {
     width: 100%;
-    border-collapse: collapse; /* Menggabungkan batas antar sel */
+    border-collapse: collapse; 
     margin-top: 20px;
 }
 

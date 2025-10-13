@@ -77,37 +77,37 @@ body {
 
 .centered-content {
     text-align: center;
-    padding-top: 50px; /* Jarak dari atas */
+    padding-top: 50px; 
 }
 
 .profile-photo {
     display: block;
-    margin: 20px auto; /* Memusatkan gambar secara horizontal */
+    margin: 20px auto; 
     width: 350px;
     height: 350px;
-    border-radius: 50%; /* Membuat foto menjadi bulat */
-    object-fit: cover; /* Memastikan foto mengisi area tanpa terdistorsi */
-    border: 3px solid #05350a; /* Garis tepi biru */
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid #05350a; 
 }
 
 .social-media {
-    margin-top: 50px; /* Saya ubah dari 150px agar tidak terlalu jauh dari paragraf */
+    margin-top: 50px; 
     display: flex;
     justify-content: center;
-    gap: 40px; /* Jarak antar setiap grup ikon dan teks */
+    gap: 40px; 
 }
 
-/* Terapkan Flexbox pada setiap tautan */
+
 .social-media a {
     display: flex;
-    align-items: center; /* Memusatkan ikon dan teks secara vertikal */
-    gap: 8px; /* Memberikan jarak kecil antara ikon dan teks */
-    text-decoration: none; /* Menghapus garis bawah pada tautan */
-    color: #333; /* Mengatur warna teks tautan */
+    align-items: center; 
+    gap: 8px; 
+    text-decoration: none; 
+    color: #333; 
 }
 
 .social-media a:hover {
-    color: #007bff; /* Mengubah warna teks saat di-hover */
+    color: #007bff; 
 }
 
 .social-media a img {
