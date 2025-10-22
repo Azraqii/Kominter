@@ -7,11 +7,32 @@
 }
 
 
+
+.song-meta {
+    display: grid;
+    grid-template-columns: 100px 1fr; 
+    gap: 5px 15px; 
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.song-meta dt {
+    font-weight: 600; 
+    color: #555;
+}
+
+.song-meta dd {
+    margin-left: 0;
+    color: #000;
+}
+
+
 .custom-player {
     width: 100%;
     margin-top: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow yang lebih jelas */
+    background-color: #f0f0f0; /* Warna latar sedikit abu-abu */
 }
 
 
@@ -28,16 +49,18 @@
 
 .lyrics {
     margin-top: 1rem;
-    padding: 20px;
+    padding: 25px;
     background-color: #f8f9fa; 
-    border-radius: 8px;
+    border-radius: 12px; 
+    font-family: monospace; 
     font-style: italic;
     color: #444;
-    line-height: 1.8;
+    line-height: 2; 
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05); 
 }
 
 .lyrics p {
-    margin-bottom: 1.5rem; 
+    margin-bottom: 1.8rem; 
 }
 
 

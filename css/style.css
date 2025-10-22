@@ -7,6 +7,9 @@ body {
     color: #333;
 }
 
+#my-songs{
+    text-align: center;
+}
 .container {
     display: grid;
     grid-template-columns: 300px 1fr 300px;
