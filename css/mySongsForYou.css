@@ -1,0 +1,59 @@
+
+
+.song-entry {
+    margin-top: 2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2rem;
+}
+
+
+.custom-player {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+.lyrics-container {
+    margin-top: 2.5rem;
+}
+
+.lyrics-container h3 {
+    font-size: 1.4rem;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.lyrics {
+    margin-top: 1rem;
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    font-style: italic;
+    color: #444;
+    line-height: 1.8;
+}
+
+.lyrics p {
+    margin-bottom: 1.5rem; 
+}
+
+
+.song-explanation {
+    margin-top: 2.5rem;
+}
+
+.song-explanation h3 {
+    font-size: 1.4rem;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.song-explanation p {
+    color: #444;
+    line-height: 1.8;
+    margin-top: 1rem;
+}
